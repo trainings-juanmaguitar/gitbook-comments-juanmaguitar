@@ -4,7 +4,7 @@ A project focusing on comments integrated with code management providers like Gi
 
 ![npm](https://aleen42.github.io/badges/src/npm.svg) ![javascript](https://aleen42.github.io/badges/src/javascript.svg) ![gitbook](https://aleen42.github.io/badges/src/gitbook_1.svg) ![gitbook](https://aleen42.github.io/badges/src/gitbook_2.svg)
 
-![](https://img.shields.io/badge/%20%20JavaScript-%20%20%20%2041,538L-f1e05a.svg) ![](https://img.shields.io/badge/%20%20CSS-%20%20%20%20961L-563d7c.svg) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/aleen42/gitbook-comments/master/LICENSE) [![npm](https://img.shields.io/npm/dt/gitbook-plugin-comments-footer.svg)](https://www.npmjs.com/package/gitbook-plugin-comments-footer)
+![](https://img.shields.io/badge/%20%20JavaScript-%20%20%20%2041,538L-f1e05a.svg) ![](https://img.shields.io/badge/%20%20CSS-%20%20%20%20961L-563d7c.svg) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/trainings-juanmaguitar/gitbook-comments-juanmaguitar/master/LICENSE) [![npm](https://img.shields.io/npm/dt/gitbook-plugin-comments-footer-juanmaguitar.svg)](https://www.npmjs.com/package/gitbook-plugin-comments-footer-juanmaguitar)
 
 ![comments-footer](./preview.png)
 
@@ -34,7 +34,7 @@ And then, the configuration option can be set as an object like the following sn
 	"pluginsConfig": {
 		"comments-footer": {
 			"type": "github",
-			"repo": "aleen42/PersonalWiki",
+			"repo": "trainings-juanmaguitar/gitbook-comments-juanmaguitar",
 			"copyright": "Copyright © aleen42"
 		}
 	}

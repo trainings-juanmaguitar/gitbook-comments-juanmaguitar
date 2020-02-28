@@ -1,5 +1,5 @@
 {
-  "name": "gitbook-plugin-comments-footer",
+  "name": "gitbook-plugin-comments-footer-juanmaguitar",
   "version": "1.4.2",
   "description": "A repo focusing on comments integrated with code management providers like GitLab or GitHub.",
   "main": "./lib/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aleen42/gitbook-comments.git"
+    "url": "git+https://github.com/trainings-juanmaguitar/gitbook-comments-juanmaguitar.git"
   },
   "keywords": [
     "gitbook",
@@ -24,15 +24,16 @@
   "author": "Aleen <aleen42@vip.qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aleen42/gitbook-comments/issues"
+    "url": "https://github.com/trainings-juanmaguitar/gitbook-comments-juanmaguitar/issues"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "handlebars": "4.1.1",
     "marked": "0.6.1",
     "moment": "2.24.0",
     "simplemde": "1.11.2"
   },
-  "homepage": "https://github.com/aleen42/gitbook-comments#readme",
+  "homepage": "https://github.com/trainings-juanmaguitar/gitbook-comments-juanmaguitar#readme",
   "devDependencies": {
     "axios": "0.18.0",
     "babel-core": "6.26.2",

@@ -3,6 +3,9 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const port = process.env['PORT'] || 8080;
 
+require('dotenv').config()
+const {URL_PRODUCTION} = process.env
+
 const _parseParams = str => str.split('&').map(item => item.split('=')).reduce((obj, item) => {
     item[0] && (obj[item[0]] = item[1]);
     return obj;
@@ -36,7 +39,7 @@ app.get('/gitbook-comments/redirect', (req, res) => {
 
     res.redirect(301, `${authorized}?${[
         `client_id=${process.env['CLIENT_ID']}`,
-        `redirect_url=${encodeURIComponent('https://gitbook-comments.herokuapp.com/gitbook-comments/auth')}`,
+        `redirect_url=${encodeURIComponent(`${URL_PRODUCTION}/gitbook-comments/auth`)}`,
         `state=${encodeURIComponent(JSON.stringify({redirect, type}))}`
     ].join('&')}`);
 });
