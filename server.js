@@ -39,7 +39,7 @@ app.get('/gitbook-comments/redirect', (req, res) => {
 
     res.redirect(301, `${authorized}?${[
         `client_id=${process.env['CLIENT_ID']}`,
-        `redirect_url=${encodeURIComponent(`${URL_PRODUCTION}/gitbook-comments/auth`)}`,
+        `redirect_url=${encodeURIComponent(`https://gitbook-comments-juanmaguitar.herokuapp.com/gitbook-comments/auth`)}`,
         `state=${encodeURIComponent(JSON.stringify({redirect, type}))}`
     ].join('&')}`);
 });
